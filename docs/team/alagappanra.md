@@ -16,29 +16,31 @@ Given below are my contributions to the project.
 The code that I have contributed can be found in this [RepoSense link](https://nus-cs2103-ay2324s1.github.io/tp-dashboard/?search=AlagappanRa&breakdown=false&sort=groupTitle%20dsc&sortWithin=title&since=2023-09-22&timeframe=commit&mergegroup=&groupSelect=groupByRepos)
 
 ## Enhancements implemented:
-### Implemented the duplicate checking algorithm for the add and edit command.
-#### What it does:
+**Duplicate checking algorithm for the add and edit command**
+
+**What it does:**<br>
 The duplicate checking algorithm checks if the company that the user is trying to add or edit is already present in the
 company list. If the company is already present in the company list, a specific error message will be raised to the 
 user, informing them of the corrective action they need to take. 
 
-#### Justification:
+**Justification:**<br>
 This feature was implemented to inform the user of an accidental duplicate company that they 
 tried to add or edit. The associated error message covers 4 different cases, each of which 
 guides the user towards a specific corrective action. These cases are filtered list view, 
 original list view, partial match and complete match of fields.
 
-### Input validation method for all fields.
-#### What it does: 
+**Input validation method for all fields**
+
+**What it does:**<br> 
 - Company name, recruiter name, role, phone number, email, application status and priority fields are validated to 
 ensure that they are not empty and that they follow the correct regex.
 - Implemented specific REGEX to ensure that the phone number and email fields are in the correct format.
 
-#### Justification:
+**Justification:**<br>
 Input validation allows us to validate duplicates, while allowing the user to see whatever they typed. This allows
 for flexibility in the user interface, while ensuring that the user does not enter invalid inputs.
 
-### Test cases for the duplicate checking algorithm.
+**Test cases for the duplicate checking algorithm**<br>
 Added close to 990 lines of test cases for the duplicate checking algorithm and the input validation fields
 to ensure behaviour was as expected.
 
@@ -46,7 +48,7 @@ to ensure behaviour was as expected.
 **Bug Fixes**:
 * Fixed a [bug](https://github.com/AY2324S1-CS2103T-T17-2/tp/pull/232) where the duplicate detection algorithm gave a wrong output
 * Fixed a bug where `Software Engineer 2` and `Software Engineer` were considered equals
-* Sequence diagrams and Activity Diagrams [bug]((https://github.com/AY2324S1-CS2103T-T17-2/tp/pull/322)) fixes
+* Sequence diagrams and Activity Diagrams [bug](https://github.com/AY2324S1-CS2103T-T17-2/tp/pull/322) fixes
 
 **Team Contributions**:
 * PR's reviewed non-trivially
