@@ -24,8 +24,9 @@ Moreover, LinkMeIn combines the **efficiency** of the [Command Line Interface (C
 <div style="page-break-after: always;"></div><br/>
 
 # Table of Contents
-* TOC
-{:toc}
+
+-   TOC
+    {:toc}
 
 <div style="page-break-after: always;"></div><br/>
 
@@ -56,16 +57,17 @@ Before we begin, let us first introduce you to the annotations that you will enc
 <div style="page-break-after: always;"></div><br/>
 
 Throughout this guide, you will also notice **various text styles**. Here's what each of them means:
-- _Used to show possible scenarios that you can use a feature for (mainly in the feature sections)._
-- [Represents hyperlinks that you can click into, which will direct you to another section of this user guide or to
-  a website.]()
-- `Used to highlight specific elements such as file names, commands, or any text that should be viewed as code.`
-- > Used to describe information about the parameters that you can key into a command.
+
+-   _Used to show possible scenarios that you can use a feature for (mainly in the feature sections)._
+-   [Represents hyperlinks that you can click into, which will direct you to another section of this user guide or to
+    a website.]()
+-   `Used to highlight specific elements such as file names, commands, or any text that should be viewed as code.`
+-   > Used to describe information about the parameters that you can key into a command.
 
 Now that you are familiar with the annotations and text styles, let us teach you how to navigate this user guide according
 to your level of expertise.
 
-## New to LinkMeIn? ##
+## New to LinkMeIn?
 
 Thank you for choosing LinkMeIn as your internship tracking ally! We are excited to embark on this journey with you.
 
@@ -78,7 +80,8 @@ Thank you for choosing LinkMeIn as your internship tracking ally! We are excited
 
 <div style="page-break-after: always;"></div><br/>
 
-## LinkMeIn Experts? ##
+## LinkMeIn Experts?
+
 Welcome back! We hope that you have been enjoying your internship tracking journey with LinkMeIn.
 
 1. If you need a refresher on how to use a feature, you can refer to the [Features Section](#current-features) to find
@@ -94,6 +97,7 @@ If you face any issues while using LinkMeIn, you can refer to the [FAQ Section](
 <div style="page-break-after: always;"></div><br/>
 
 # Quick Start
+
 In this section, you will learn how to set up LinkMeIn on your computer.
 
 1. Make sure that you have **Java 11 or above** installed on your Computer. Click
@@ -102,36 +106,37 @@ In this section, you will learn how to set up LinkMeIn on your computer.
 2. With Java 11 installed, you can now download our latest jar file from [here](https://github.com/AY2324S1-CS2103T-T17-2/tp/releases/latest).
 
 3. Click on the `LinkMeIn.jar` file to download it.
-    <div style="margin-top: 10px; margin-bottom: 10px">
-        <img src="images/quick-start/githubRelease.png" alt="Github Release" width="650"/>
-    </div>
+ <div style="margin-top: 10px; margin-bottom: 10px">
+     <img src="images/quick-start/githubRelease.png" alt="Github Release" width="650"/>
+ </div>
 
 4. Move the downloaded jar file into a home folder of your choice, such as the **Desktop** or **Documents** folder.
 
 5. Open up your command terminal. If you are unsure of how to do so, you can check out [this FAQ](#2-how-do-i-open-up-my-terminal).
 
 6. Navigate to the folder where you have placed the jar file by typing `cd`, followed by the folder path.
-   - For example if you have placed the jar file in the **Documents** folder, type `cd ~/Documents` and press `Enter`.
 
-   <div style="page-break-after: always;"></div><br/>
+    - For example if you have placed the jar file in the **Documents** folder, type `cd ~/Documents` and press `Enter`.
+
+    <div style="page-break-after: always;"></div><br/>
 
 7. Type the command `java -jar LinkMeIn.jar` and press `Enter`. Your command terminal should look like this after
    Steps 6 and 7:
-    <div style="margin-top: 10px; margin-bottom: 10px">
-        <img src="images/quick-start/launchLinkMeIn.png" alt="Launch LinkMeIn" width="650"/>
-    </div>
+     <div style="margin-top: 10px; margin-bottom: 10px">
+         <img src="images/quick-start/launchLinkMeIn.png" alt="Launch LinkMeIn" width="650"/>
+     </div>
 
-    <div markdown="block" class="alert alert-danger">
-    **:exclamation: Warning:**<br>
-    * Do not move or delete the `data` folder as it contains the data of your internship applications.
-    </div>
+     <div markdown="block" class="alert alert-danger">
+     **:exclamation: Warning:**<br>
+     * Do not move or delete the `data` folder as it contains the data of your internship applications.
+     </div>
 
-   <div style="page-break-after: always;"></div><br/>
+    <div style="page-break-after: always;"></div><br/>
 
 8. You should have successfully launched LinkMeIn with the following interface appearing on your screen.
-    <div style="margin-top: 10px; margin-bottom: 10px">
-        <img src="images/quick-start/startupPage.png" alt="Start Up Page LinkMeIn" width="650"/>
-    </div>
+ <div style="margin-top: 10px; margin-bottom: 10px">
+     <img src="images/quick-start/startupPage.png" alt="Start Up Page LinkMeIn" width="650"/>
+ </div>
 
 9. Great job! You are now ready to learn about the **GUI** of LinkMeIn!
 
@@ -140,13 +145,14 @@ In this section, you will learn how to set up LinkMeIn on your computer.
 <div style="page-break-after: always;"></div><br/>
 
 # Introducing LinkMeIn's GUI
+
 LinkMeIn's [GUI](#glossary) is designed to be **simple** and **intuitive**, with you in mind.
 The GUI consists of four main components:
 
 ![uiIntro.png](images/ui-intro/uiIntro.png)
 
 | Number | Component            | Description                                              |
-|--------|----------------------|----------------------------------------------------------|
+| ------ | -------------------- | -------------------------------------------------------- |
 | 1      | Command Box          | Key in your commands here and LinkMeIn will execute them |
 | 2      | Message Box          | Displays success or error messages to you                |
 | 3      | Company List Panel   | Displays the list of companies that you have added       |
@@ -179,10 +185,11 @@ The Command Box serves as the gateway for entering command lines. Once you press
 Now, let's move on to learn how to write command lines, and you are ready to try LinkMeIn!
 
 ## Command Format
+
 A command line has 4 components, **command word**, **index**, **prefix** and **parameter**.
 
 | Component    | Example  | Description                                                                                                                                                               |
-|--------------|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ------------ | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Command Word | `add`    | Indicates the feature to be executed                                                                                                                                      |
 | Index        | `1`, `5` | Indicates the position of the company in the list (e.g., 5th company in the list)                                                                                         |
 | Parameter    | `John`   | <br/> Represents the updated value or content. <br/> These values, which are provided by the user, replaces the `UPPER_CASE` placeholders in the command format<br/><br/> |
@@ -199,6 +206,7 @@ The following color code will assist you in highlighting each component for bett
 </div>
 
 Let's use the [`add` command](#adding-a-company--add) format as shown below to explain the components.
+
 <div style="margin-top: 10px; margin-bottom: 10px">
     <img src="images/cli-description/CommandFormat2.png" alt="CommandFormat2" width="750" />
 </div>
@@ -210,23 +218,24 @@ Simply replace the parameters with your specific application details, and you ha
 
 But wait! Notice the `[]` around `pr/PRIORITY`? Here's what it means:
 
-| Symbol  | Description      | Example          | Interpretation                                        |
-|---------|------------------|------------------|-------------------------------------------------------|
-| None    | Compulsory field | `C/COMPANY_NAME` | The company's name is required when adding a company  |
-| `[ ]`   | Optional field   | `[pr/PRIORITY]`  | Not a must to indicate priority when adding a company |
+| Symbol | Description      | Example          | Interpretation                                        |
+| ------ | ---------------- | ---------------- | ----------------------------------------------------- |
+| None   | Compulsory field | `C/COMPANY_NAME` | The company's name is required when adding a company  |
+| `[ ]`  | Optional field   | `[pr/PRIORITY]`  | Not a must to indicate priority when adding a company |
 
 Since `PRIORITY` parameter is optional, the following command lines are accepted for the `add` command.
 
 <div style="page-break-after: always;"></div><br/>
 
 **Examples:**
-- `add c/GovTech r/Software Engineer s/PA n/John Doe d/12-12-2023 e/johnDoe@gmail.com p/98765432 pr/medium`
-- `add c/GovTech r/Software Engineer s/PA n/John Doe d/12-12-2023 e/johnDoe@gmail.com p/98765432`
+
+-   `add c/GovTech r/Software Engineer s/PA n/John Doe d/12-12-2023 e/johnDoe@gmail.com p/98765432 pr/medium`
+-   `add c/GovTech r/Software Engineer s/PA n/John Doe d/12-12-2023 e/johnDoe@gmail.com p/98765432`
 
 <div markdown="block" class="alert alert-info">
 **:information_source: Notes:**<br>
-* Parameters can be in any order. e.g. If the command specifies `c/COMPANY_NAME r/ROLE`, `r/ROLE c/COMPANY_NAME` is also acceptable.
-* Parameters and prefixes are case-insensitive. e.g. `c/COMPANY_NAME` is the same as `C/company_name`.
+* Parameters can be in any order (e.g., if the command specifies `c/COMPANY_NAME r/ROLE`, `r/ROLE c/COMPANY_NAME` is also acceptable).
+* Parameters and prefixes are case-insensitive (e.g., `c/COMPANY_NAME` is the same as `C/company_name`).
 </div>
 
 Notice that the `add` command does not use `INDEX` in its command format. Each feature has a unique command format, but every command line must begin with a command word to specify the desired feature. You can find the command format for each feature in the [Features](#current-features) section or take a **quick tour** to get hands-on experience with LinkMeIn, right below!
@@ -234,6 +243,7 @@ Notice that the `add` command does not use `INDEX` in its command format. Each f
 [&uarr; Back to Table of Contents](#table-of-contents)
 
 ---
+
 <div style="page-break-after: always;"></div><br/>
 
 # Introducing LinkMeIn: A Quick Tour
@@ -259,10 +269,11 @@ Now, follow us along this tour and transform yourself into a master of tracking 
 Adding a company is the first step to tracking your internship applications. Let us start off by adding your first company to LinkMeIn.
 
 **Step 1:** Let's say you are interested to apply for the **Software Engineer** role from **Apple**. Through the application description, you obtained the following information:
-* **Deadline:** 10-10-2023
-* **Recruiter Name:** Francis Tan
-* **Email:** francistan@example.com
-* **Phone Number:** 88287345
+
+-   **Deadline:** 10-10-2023
+-   **Recruiter Name:** Francis Tan
+-   **Email:** francistan@example.com
+-   **Phone Number:** 88287345
 
 This application is of **medium** priority as you have other applications that you want to focus on first.
 
@@ -345,7 +356,6 @@ Suppose you no longer wish to track the DSTA application from earlier, you can e
 Go ahead and try deleting the other companies too. If you wish to read up more on the delete command, you can do so
 [here](#deleting-a-company--delete).
 
-
 **Congratulations!** You have completed the quick tour of LinkMeIn. You are now ready to use LinkMeIn to track your own
 internship applications. To remove the sample data provided in LinkMeIn, simply type `clear` in the command box to remove
 all existing entries. Find out more about the `clear` command [here](#clearing-all-companies-clear).
@@ -357,18 +367,19 @@ You can also visit the [FAQ](#faq) to view the frequently asked questions if you
 [&uarr; Back to Table of Contents](#table-of-contents)
 
 ---
+
 <div style="page-break-after: always;"></div><br/>
 
 # Current Features
 
 LinkMeIn's features can be categorised into 3 broad categories:
 
--  [General Features](#general-features): This section equips you with essential tools to **navigate** LinkMeIn effectively.
-   Here, you can access help, clear all entries, and gracefully exit LinkMeIn.
-- [Company Management Features](#company-management-features): Dive into this section to **engage with individual company entries.** You can easily
-  add, view, edit, delete companies, as well as add your own remarks to them.
-- [Company List Features](#company-list-features): This section allows you to **interact with the list of companies,** thereby unlocking LinkMeIn's full potential.
-  Explore options to find, list, filter and sort companies, managing all companies with ease.
+-   [General Features](#general-features): This section equips you with essential tools to **navigate** LinkMeIn effectively.
+    Here, you can access help, clear all entries, and gracefully exit LinkMeIn.
+-   [Company Management Features](#company-management-features): Dive into this section to **engage with individual company entries.** You can easily
+    add, view, edit, delete companies, as well as add your own remarks to them.
+-   [Company List Features](#company-list-features): This section allows you to **interact with the list of companies,** thereby unlocking LinkMeIn's full potential.
+    Explore options to find, list, filter and sort companies, managing all companies with ease.
 
 <div markdown="block" class="alert alert-info">
 **:information_source: Notes:**<br>
@@ -379,6 +390,7 @@ LinkMeIn's features can be categorised into 3 broad categories:
 <div style="page-break-after: always;"></div><br/>
 
 ## General Features
+
 These general features are here to enhance your user experience when using LinkMeIn. Keep reading to find out more about them!
 
 ### Clearing All Companies: `clear`
@@ -394,7 +406,9 @@ _You've just completed an internship cycle and are preparing for the next one! W
 **Step 2:** You should see an empty list of companies immediately.
 
 ![img.png](images/clear-command/clear.png)
-<br/>
+
+<div style="page-break-after: always;"></div><br/>
+
 <div markdown="block" class="alert alert-danger">
 **:exclamation: Warning:**<br>
 * Companies cannot be recovered after clearing! Please only use the `clear` command when you are very sure that you no longer wish to track the existing list of companies!
@@ -403,6 +417,7 @@ _You've just completed an internship cycle and are preparing for the next one! W
 [&uarr; Back to Table of Contents](#table-of-contents)
 
 ### Exiting LinkMeIn: `exit`
+
 _You are done tracking for the day and wish to exit LinkMeIn. Simply use the `exit` command to bid farewell to LinkMeIn._
 
 **Format:** `exit`
@@ -431,6 +446,7 @@ Simply copy the link provided and paste it into your web browser to access LinkM
 <div style="page-break-after: always;"></div><br/>
 
 ## Company Management Features
+
 These features are designed to make managing individual companies in LinkMeIn a breeze for you! Read on further to find out more about them!
 
 ### Adding a Company : `add`
@@ -454,8 +470,9 @@ Add the company to LinkMeIn now to keep track of the application process using t
 If you've completed the Quick Tour of LinkMeIn, you've likely added a few companies to your app. If not, you can refer to the [Quick Tour Section](#1-adding-a-company) for guidance on adding companies.
 
 Here are some other examples of `add` commands that you can try:
-- `add c/Uber r/Software Engineer s/PA n/Mavis d/02-03-2023 e/mavis@example.com p/88284452 pr/low`
-- `add c/Oracle r/Data Analyst s/PA n/Marry Lim d/12-11-2023 e/marrylim@example.com p/98452321`
+
+-   `add c/Uber r/Software Engineer s/PA n/Mavis d/02-03-2023 e/mavis@example.com p/88284452 pr/low`
+-   `add c/Oracle r/Data Analyst s/PA n/Marry Lim d/12-11-2023 e/marrylim@example.com p/98452321`
 
 <div style="page-break-after: always;"></div><br/>
 
@@ -474,7 +491,7 @@ With the `view` command, you can easily view the full details of a specific comp
 
 **Format:** `view INDEX`
 
->`INDEX` must be a positive integer (i.e. 1, 2, 3, ...) and should not exceed the number of companies in the list. It should also be less than the maximum allowed integer (i.e. less than or equal to 2147483647).
+> `INDEX` must be a positive integer less than or equal to the maximum integer (i.e., 1, 2, 3, ..., 2147483647). It must also not be greater than the number of companies in the list.
 
 <div markdown="block" class="alert alert-info">
 **:information_source: Note:**<br>
@@ -486,8 +503,9 @@ With the `view` command, you can easily view the full details of a specific comp
 If you've completed the Quick Tour of LinkMeIn, you've likely viewed a few companies. If not, you can refer to the [Quick Tour Section](#2-viewing-company-details) for guidance on viewing companies!
 
 Here are some other examples of `view` commands that you can try:
-- `view 1`
-- `view 4`
+
+-   `view 1`
+-   `view 4`
 
 <div style="page-break-after: always;"></div><br/>
 
@@ -506,7 +524,7 @@ You can use the `delete` command to delete any company from your list of compani
 
 **Format:`delete INDEX`**
 
-> INDEX must be a positive integer less than the maximum integer (i.e. 1, 2, 3, ..., 2147483647) and not be greater than the number of companies in the list.
+> `INDEX` must be a positive integer less than or equal to the maximum integer (i.e., 1, 2, 3, ..., 2147483647). It must also not be greater than the number of companies in the list.
 
 <div markdown="block" class="alert alert-info">
 **:information_source: Note:**<br>
@@ -518,8 +536,9 @@ You can use the `delete` command to delete any company from your list of compani
 If you've completed the Quick Tour of LinkMeIn, you've likely deleted a few companies. If not, you can refer to the [Quick Tour Section](#4-deleting-a-company) for guidance on deleting companies.
 
 Here are some other examples of `delete` commands that you can try:
-- `delete 1`
-- `delete 2`
+
+-   `delete 1`
+-   `delete 2`
 
 <div style="page-break-after: always;"></div><br/>
 
@@ -540,7 +559,7 @@ _After adding a company, you wish to note down more information such as the job 
 
 **Format:** `remark INDEX re/REMARK`
 
-> `INDEX` must be a positive integer (i.e. 1, 2, 3, ...) and should not exceed the number of companies in the list. It should also be less than the maximum allowed integer (i.e. less than or equal to 2147483647). <br>
+> `INDEX` must be a positive integer less than or equal to the maximum integer (i.e., 1, 2, 3, ..., 2147483647). It must also not be greater than the number of companies in the list. <br>
 >
 > Remarks cannot be empty.
 
@@ -567,8 +586,9 @@ you want to note that this internship requires experience in Java.
 ![RemarkDemo2.png](images/remark-command/RemarkDemo2.png)
 
 Here are some other examples of `remark` commands that you can try:
-- `remark 4 re/interview went well!`
-- `remark 5 re/$800 per month`
+
+-   `remark 4 re/interview went well!`
+-   `remark 5 re/$800 per month`
 
 <div style="page-break-after: always;"></div><br/>
 
@@ -594,7 +614,7 @@ _You have previously added some remarks to a company, but the remarks have becom
 
 **Format:** `unremark INDEX`
 
->`INDEX` must be a positive integer (i.e. 1, 2, 3, ...) and should not exceed the number of companies in the list. It should also be less than the maximum allowed integer (i.e. less than or equal to 2147483647).
+> `INDEX` must be a positive integer less than or equal to the maximum integer (i.e., 1, 2, 3, ..., 2147483647). It must also not be greater than the number of companies in the list.
 
 <div markdown="block" class="alert alert-success">
 **:bulb: Useful Tip:**<br>
@@ -639,7 +659,7 @@ _You look at the details of the application, and realise that you have made a ty
 
 **Format:** `edit INDEX [c/COMPANY_NAME] [n/RECRUITER_NAME] [r/ROLE] [s/APPLICATION_STATUS] [d/DEADLINE] [e/EMAIL] [p/PHONE_NUMBER] [pr/PRIORITY]`
 
->`INDEX` must be a positive integer (i.e. 1, 2, 3, ...) and should not exceed the number of companies in the list. It should also be less than the maximum allowed integer (i.e. less than or equal to 2147483647). <br>
+> `INDEX` must be a positive integer less than or equal to the maximum integer (i.e., 1, 2, 3, ..., 2147483647). It must also not be greater than the number of companies in the list.
 >
 > At least one of the optional parameters must be provided.
 
@@ -649,11 +669,11 @@ If you've completed the Quick Tour of LinkMeIn, you've likely edited a few compa
 
 Here are some more examples of `edit` commands that you can try:
 
-- `edit 3 d/11-09-2025 pr/LOW` <br>
-  Edits the deadline and priority of the 3rd company in the displayed list.
+-   `edit 3 d/11-09-2025 pr/LOW` <br>
+    Edits the deadline and priority of the 3rd company in the displayed list.
 
-- `edit 1 n/Amy Tan e/amytan@gmail.com` <br>
-  Edits the recruiter's name and email of the 1st company in the displayed list.
+-   `edit 1 n/Amy Tan e/amytan@gmail.com` <br>
+    Edits the recruiter's name and email of the 1st company in the displayed list.
 
 **Possible Error:**
 
@@ -674,7 +694,7 @@ If you attempt to **add** or **edit** an application, you might accidentally cre
 
 <div markdown="block" class="alert alert-info">
 **:information_source: Note:**<br>
-* LinkMeIn's duplicate check is case-insensitive. e.g. `tiktok` is the same as `TikTok`.
+* LinkMeIn's duplicate check is case-insensitive (e.g., `tiktok` is the same as `TikTok`).
 </div>
 
 **Example 1:**
@@ -703,6 +723,7 @@ an error message will be displayed in the Message Box, notifying you of the dupl
 <div style="page-break-after: always;"></div><br/>
 
 ## Company List Features
+
 These features are crafted to simplify the management of your list of companies in LinkMeIn! Continue reading to discover more about how they work!
 
 ### Finding a Company: `find`
@@ -710,6 +731,7 @@ These features are crafted to simplify the management of your list of companies 
 _You've applied to many companies, and now you wish to monitor your internship applications for a specific company. Use the find command for a swift and efficient way to locate the company you want!_
 
 **Format:** `find KEYWORD [MORE_KEYWORDS]...`
+
 > KEYWORD must be at least 1 character long. Multiple keywords can be provided.
 
 <div markdown="block" class="alert alert-info">
@@ -760,7 +782,7 @@ _You've found the specific company you wanted using the find command earlier, an
 
 <div markdown="block" class="alert alert-info">
 **:information_source: Note:**<br>
-* Upon launching LinkMeIn, you will see your full list of companies. (i.e. `list` command is executed automatically).
+* Upon launching LinkMeIn, you will see your full list of companies (i.e., `list` command is executed automatically).
 </div>
 
 [&uarr; Back to Table of Contents](#table-of-contents)
@@ -813,13 +835,14 @@ _Want to see which application deadlines are coming up soon or which ones are fa
 arrange your list of applications based on their deadlines!_
 
 **Format:** `sort SORT_ORDER`
+
 > SORT_ORDER should be one of the following: `ascending`, `a`, `asc` for ascending order, and `descending`, `d`, `desc` for descending order.
 
 <div markdown="block" class="alert alert-info">
 **:information_source: Notes:**<br>
 * Ascending order means that the nearest deadlines will be shown first.
 * Descending order means that the furthest deadlines will be shown first.
-* The case of `SORT_ORDER` does not matter (e.g. `ASCENDING` and `ascending` are treated the same).
+* The case of `SORT_ORDER` does not matter (e.g., `ASCENDING` and `ascending` are treated the same).
 </div>
 
 <div markdown="block" class="alert alert-success">
@@ -853,6 +876,7 @@ and suggest the correct keyword to use:
 [&uarr; Back to Table of Contents](#table-of-contents)
 
 ---
+
 <div style="page-break-after: always;"></div><br/>
 
 ## Glossary
@@ -862,7 +886,7 @@ and suggest the correct keyword to use:
 Encountered an unfamiliar term when using LinkMeIn? Read the respective descriptions to better understand the term!
 
 | Term                 | Definition                                                                                                                                                                                                                          |
-|----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Alphanumeric**     | Alphanumeric refers to a character set that includes both letters and numbers. It includes the 26 letters of the English alphabet (both uppercase and lowercase) and the numbers 0 through 9.                                       |
 | **Case-insensitive** | Upper case and lower case are being treated the same way. For example, `tiktok` and `TikTok` will be considered the same.                                                                                                           |
 | **CLI**              | Command-Line Interface (CLI) is a text-based user interface where users interact with the application by typing commands.                                                                                                           |
@@ -879,7 +903,7 @@ Encountered an unfamiliar term when using LinkMeIn? Read the respective descript
 ### Parameters Description
 
 | Parameter          | Description                                   | Constraints                                                                                                                     |
-|--------------------|-----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
+| ------------------ | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
 | COMPANY_NAME       | Name of the company that you are applying to. | Only contain alphanumeric characters and spaces, and should not be blank. Maximum of 100 characters (excluding spaces).         |
 | ROLE               | Role of the internship that you are applying. | Only contain alphanumeric characters and spaces, and should not be blank. Maximum of 100 characters (excluding spaces).         |
 | APPLICATION_STATUS | Status of the application.                    | Case-insensitive. Refer to [Application Status Description](#application-status-parameter-description) for all possible inputs. |
@@ -890,12 +914,12 @@ Encountered an unfamiliar term when using LinkMeIn? Read the respective descript
 | PRIORITY           | Priority of the application.                  | <br/> Case-insensitive and should be one of the following: `high`, `medium`, `low`, `none`. <br/><br/>                          |
 | REMARK             | Remark of the application.                    | Should not be blank.                                                                                                            |
 
-
 <div markdown="block" class="alert alert-info">
 **:information_source: Note:**<br>
 * If you enter an invalid input for any of the prefixes, you will see an error message in the command box. Refer to the error message, check the description for the respective prefix and try the command again! An example of an error message is shown below.
 
 ![img.png](images/add-command/AddCommandError.png)
+
 </div>
 
 <div style="page-break-after: always;"></div><br/>
@@ -903,7 +927,7 @@ Encountered an unfamiliar term when using LinkMeIn? Read the respective descript
 #### Application Status Parameter Description
 
 | Application Status    | Other Accepted Inputs                                                   | What it means                                                                                                                       |
-|-----------------------|-------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| --------------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
 | `PENDING APPLICATION` | `PA`, `PENDAPP`, `PENDINGAPP`, `PENDINGAPPLICATION`, `P A`, `PENDING A` | You have not submitted the application, but are currently working on it.                                                            |
 | `PENDING INTERVIEW`   | `PI`, `PENDINT`, `PENDINGINT`, `PENDINGINTERVIEW`, `P I`, `PENDING I`   | You have submitted the application, and are either waiting for an interview offer, or waiting to go for the interview.              |
 | `PENDING OUTCOME`     | `PO`, `PENDOUT`, `PENDINGOUT`, `PENDINGOUTCOME`, `P O`, `PENDING O`     | You have went through the interview, but the final decision or outcome (whether accepted or rejected) hasn't been communicated yet. |
@@ -913,49 +937,54 @@ Encountered an unfamiliar term when using LinkMeIn? Read the respective descript
 <div style="page-break-after: always;"></div><br/>
 
 #### Email Format Description
+
 The email format is `local-part@domain`.
 
 `local-part` constraints:
-* Only contain alphanumeric characters and these special characters, excluding the parentheses, (+_.-).
-* May not start or end with any special characters.
+
+-   Only contain alphanumeric characters and these special characters, excluding the parentheses, (+\_.-).
+-   May not start or end with any special characters.
 
 `domain` name constraints:
-* Made up of domain labels separated by periods.
-* End with a domain label at least 2 characters long
-* Have each domain label start and end with alphanumeric characters
-* Have each domain label consist of alphanumeric characters, separated only by hyphens, if any.
+
+-   Made up of domain labels separated by periods.
+-   End with a domain label at least 2 characters long
+-   Have each domain label start and end with alphanumeric characters
+-   Have each domain label consist of alphanumeric characters, separated only by hyphens, if any.
 
 [&uarr; Back to Table of Contents](#table-of-contents)
 
 ---
+
 <div style="page-break-after: always;"></div><br/>
 
 ## FAQ
 
 ### 1. How do I check if I have Java 11 installed?
 
-* Open up your terminal. If you are unsure of how to do so, you can refer [here](#2-how-do-i-open-up-my-terminal).
-* Type `java -version`. If you have Java installed, you will see the following:
+-   Open up your terminal. If you are unsure of how to do so, you can refer [here](#2-how-do-i-open-up-my-terminal).
+-   Type `java -version`. If you have Java installed, you will see the following:
 
 ![img.png](images/quick-start/java11.png)
 
-* If you do not have Java installed, you can download it [here](https://www.oracle.com/sg/java/technologies/downloads/#java11).
-  Remember to download the Java 11 version.
-* You can refer to the guides below to install Java 11 for your respective operating systems:
-   * [Windows Guide](https://www.java.com/en/download/help/windows_manual_download.html) to install Java.
-   * [macOS Guide](https://www.java.com/en/download/help/mac_install.html) to install Java.
-   * [Linux Guide](https://www.java.com/en/download/help/linux_x64_install.html) to install Java.
+-   If you do not have Java installed, you can download it [here](https://www.oracle.com/sg/java/technologies/downloads/#java11).
+    Remember to download the Java 11 version.
+-   You can refer to the guides below to install Java 11 for your respective operating systems:
+    -   [Windows Guide](https://www.java.com/en/download/help/windows_manual_download.html) to install Java.
+    -   [macOS Guide](https://www.java.com/en/download/help/mac_install.html) to install Java.
+    -   [Linux Guide](https://www.java.com/en/download/help/linux_x64_install.html) to install Java.
 
 [&uarr; Back to Quick Start](#quick-start)
 
 <div style="page-break-after: always;"></div><br/>
 
 ### 2. How do I open up my terminal?
-* **Windows:** Click the Windows Start button, and type **'Command Prompt'** or **'cmd'** into the search bar.
-  Press Enter to open it.
-* **macOS:** Click on **'F4'** and type **'terminal'**. Press Enter when it appears in the
-  search results.
-* **Linux:** Press **'Ctrl'**, **'Alt'** and **'T'** simultaneously to open the terminal.
+
+-   **Windows:** Click the Windows Start button, and type **'Command Prompt'** or **'cmd'** into the search bar.
+    Press Enter to open it.
+-   **macOS:** Click on **'F4'** and type **'terminal'**. Press Enter when it appears in the
+    search results.
+-   **Linux:** Press **'Ctrl'**, **'Alt'** and **'T'** simultaneously to open the terminal.
 
 [&uarr; Back to Quick Start](#quick-start)
 
@@ -978,8 +1007,8 @@ Make sure you have Java 11 installed on your machine as the product only runs on
 ### 5. What is an invalid index?
 
 An invalid index is a non-positive integer or an index greater than the number of companies you have.
-e.g -1, 0, a, \*, 1 0 (Only one index is allowed at a time). Positive index should not exceed the maximum allowed range
-of 2147483647.
+Examples: -1, 0, a, \*, 1 0 (Only one index is allowed at a time). Positive index should not exceed the maximum allowed
+range of 2147483647.
 
 ### 6. Do I need an internet connection to use LinkMeIn?
 
@@ -992,12 +1021,13 @@ With LinkMeIn, there is no need for you to save manually. Everything is saved au
 [&uarr; Back to Table of Contents](#table-of-contents)
 
 ---
+
 <div style="page-break-after: always;"></div><br/>
 
 ## Command Summary
 
 | Command  | Format                                                                                                                                             | Example                                                                                       |
-|----------|----------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| -------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
 | `add`    | `add c/COMPANY_NAME r/ROLE s/APPLICATION_STATUS d/DEADLINE n/RECRUITER_NAME e/EMAIL p/PHONE_NUMBER [pr/PRIORITY]`                                  | `add c/Apple r/Software Engineer s/PA d/12-12-2023 n/John Tan e/johntan@gmail.com p/98765432` |
 | `view`   | `view INDEX`                                                                                                                                       | `view 1`                                                                                      |
 | `delete` | `delete INDEX`                                                                                                                                     | `delete 1`                                                                                    |
