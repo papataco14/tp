@@ -16,9 +16,7 @@ Given below are my contributions to the project.
 The code that I have contributed can be found in this [RepoSense link](https://nus-cs2103-ay2324s1.github.io/tp-dashboard/?search=AlagappanRa&breakdown=false&sort=groupTitle%20dsc&sortWithin=title&since=2023-09-22&timeframe=commit&mergegroup=&groupSelect=groupByRepos)
 
 ## Enhancements implemented:
-
 ### Implemented the duplicate checking algorithm for the add and edit command.
-
 #### What it does:
 The duplicate checking algorithm checks if the company that the user is trying to add or edit is already present in the
 company list. If the company is already present in the company list, a specific error message will be raised to the 
@@ -31,7 +29,6 @@ guides the user towards a specific corrective action. These cases are filtered l
 original list view, partial match and complete match of fields.
 
 ### Input validation method for all fields.
-
 #### What it does: 
 - Company name, recruiter name, role, phone number, email, application status and priority fields are validated to 
 ensure that they are not empty and that they follow the correct regex.
@@ -78,14 +75,14 @@ to ensure behaviour was as expected.
 
 ### Contributions to the UG:
 The following sections from the UG were contributed by me:
-1. Features:
+1. **Features**:
    - Duplicate detection algorithm: Added description, examples for the various errors that can arise 
-2. Added FAQ:
+2. **Added FAQ**:
    - Added questions 1 and 2 to the FAQ section.
-3. Introduction section
+3. **Introduction section**
    - Added a section on the motivation behind LinkMeIn
    - Quick summary of features
-4. Code block text size re-adjustment
+4. **Code block text size re-adjustment**
    - Adjusted the code block text size to be smaller for better readability.
 
 ### Contributions to the DG:
