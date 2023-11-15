@@ -585,7 +585,7 @@ The same success message will be displayed regardless of whether remarks exist f
 
 **Step 1.** If you wish to delete the remarks of DSTA company, which is 3rd in the Company List Panel, type `unremark 3` and press `Enter`.
 
-![UnremarkDemo1.png](images/remark-command/UnremarkDemo1.png)
+![UnremarkDemo1.png](images/remark-command/UnremarkDemo1.png)<br>
 
 <div style="page-break-after: always;"></div>
 
