@@ -27,8 +27,6 @@ Moreover, LinkMeIn combines the **efficiency** of the [Command Line Interface (C
 * TOC
 {:toc}
 
-<div style="page-break-after: always;"></div><br/>
-
 # Usage of This Guide
 
 This user guide aims to empower you with the knowledge and skills needed to maximize the potential of LinkMeIn. We are
@@ -76,7 +74,6 @@ Thank you for choosing LinkMeIn as your internship tracking ally! We are excited
 3. If you choose to explore LinkMeIn on your own, you can refer to the [Features Section](#current-features) to find out
    more about LinkMeIn's features.
 
-<div style="page-break-after: always;"></div><br/>
 
 ## LinkMeIn Experts? ##
 Welcome back! We hope that you have been enjoying your internship tracking journey with LinkMeIn.
@@ -880,17 +877,17 @@ Encountered an unfamiliar term when using LinkMeIn? Read the respective descript
 
 ### Parameters Description
 
-| Parameter          | Description                                   | Constraints                                                                                                                     |
-|--------------------|-----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| COMPANY_NAME       | Name of the company that you are applying to. | Only contain alphanumeric characters and spaces, and should not be blank. Maximum of 100 characters (excluding spaces).         |
-| ROLE               | Role of the internship that you are applying. | Only contain alphanumeric characters and spaces, and should not be blank. Maximum of 100 characters (excluding spaces).         |
-| APPLICATION_STATUS | Status of the application.                    | Case-insensitive. Refer to [Application Status Description](#application-status-parameter-description) for all possible inputs. |
-| DEADLINE           | Deadline of the application.                  | Should be in DD-MM-YYYY format. Dates before the current date are allowed.                                                      |
-| RECRUITER_NAME     | Name of the recruiter.                        | Only contain alphanumeric characters and spaces, and should not be blank. Maximum of 100 characters (excluding spaces).         |
-| EMAIL              | Email of the recruiter.                       | Should be in the format of [`local-part@domain`](#email-format-description) and should not be blank.                            |
-| PHONE_NUMBER       | Phone number of the recruiter.                | Only contain numbers, be at least 3 digits and at most 20 digits long. Should not be blank.                                     |
-| PRIORITY           | Priority of the application.                  | <br/> Case-insensitive and should be one of the following: `high`, `medium`, `low`, `none`. <br/><br/>                          |
-| REMARK             | Remark of the application.                    | Should not be blank.                                                                                                            |
+| Parameter          | Description                                   | Constraints                                                                                                                                |
+|--------------------|-----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| COMPANY_NAME       | Name of the company that you are applying to. | Only contain alphanumeric characters and spaces, and should not be blank. Maximum of 100 characters (excluding spaces).                    |
+| ROLE               | Role of the internship that you are applying. | Only contain alphanumeric characters and spaces, and should not be blank. Maximum of 100 characters (excluding spaces).                    |
+| APPLICATION_STATUS | Status of the application.                    | Case-insensitive. Refer to [Application Status Description](#application-status-parameter-description) for all possible inputs.            |
+| DEADLINE           | Deadline of the application.                  | Should be in DD-MM-YYYY format. Dates before the current date are allowed.                                                                 |
+| RECRUITER_NAME     | Name of the recruiter.                        | Only contain alphanumeric characters and spaces, and should not be blank. Maximum of 100 characters (excluding spaces).                    |
+| EMAIL              | Email of the recruiter.                       | Should be in the format of [`local-part@domain`](https://help.xmatters.com/ondemand/trial/valid_email_format.htm) and should not be blank. |
+| PHONE_NUMBER       | Phone number of the recruiter.                | Only contain numbers, be at least 3 digits and at most 20 digits long. Should not be blank.                                                |
+| PRIORITY           | Priority of the application.                  | <br/> Case-insensitive and should be one of the following: `high`, `medium`, `low`, `none`. <br/><br/>                                     |
+| REMARK             | Remark of the application.                    | Should not be blank.                                                                                                                       |
 
 
 <div markdown="block" class="alert alert-info">
@@ -911,21 +908,6 @@ Encountered an unfamiliar term when using LinkMeIn? Read the respective descript
 | `PENDING OUTCOME`     | `PO`, `PENDOUT`, `PENDINGOUT`, `PENDINGOUTCOME`, `P O`, `PENDING O`     | You have went through the interview, but the final decision or outcome (whether accepted or rejected) hasn't been communicated yet. |
 | `ACCEPTED`            | `A`, `ACC`, `ACPT`, `ACCEPT`                                            | You have been offered the internship position. Congratulations!                                                                     |
 | `REJECTED`            | `R`, `REJ`, `REJECT`                                                    | Unfortunately, the application wasn't successful and you were not offered the internship. Don't worry, try again next time!         |
-
-<div style="page-break-after: always;"></div><br/>
-
-#### Email Format Description
-The email format is `local-part@domain`.
-
-`local-part` constraints:
-* Only contain alphanumeric characters and these special characters, excluding the parentheses, (+_.-).
-* May not start or end with any special characters.
-
-`domain` name constraints:
-* Made up of domain labels separated by periods.
-* End with a domain label at least 2 characters long
-* Have each domain label start and end with alphanumeric characters
-* Have each domain label consist of alphanumeric characters, separated only by hyphens, if any.
 
 [&uarr; Back to Table of Contents](#table-of-contents)
 
