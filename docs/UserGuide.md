@@ -574,19 +574,12 @@ _You have previously added some remarks to a company, but the remarks have becom
 
 > `INDEX` must be a positive integer less than or equal to the maximum integer (i.e., 1, 2, 3, ..., 2147483647). It must also not be greater than the number of companies in the list.
 
-<div markdown="block" class="alert alert-success">
-**:bulb: Useful Tip:**<br>
-* To add new remarks, you do **NOT** need to delete the existing remarks using `unremark` command first. Directly use the `remark` command to add your new remarks.
-</div>
-
 <div markdown="block" class="alert alert-info">
 **:information_source: Note:**<br>
 * You can unremark a company that already has no remarks.
 LinkMeIn does not check for the existence of remarks.
 The same success message will be displayed regardless of whether remarks exist for a company.
 </div>
-
-<div style="page-break-after: always;"></div>
 
 **Example:**
 
@@ -606,6 +599,11 @@ If you have entered an [**invalid index**](#5-what-is-an-invalid-index),
 you will see an error message in the Message Box as shown below. Don’t worry, just edit your index accordingly and try the command again!
 
 ![UnremarkErrMsg.png](images/remark-command/UnremarkErrMsg.png)
+
+<div markdown="block" class="alert alert-success">
+**:bulb: Useful Tip:**<br>
+* To add new remarks, you do **NOT** need to delete the existing remarks using `unremark` command first. Directly use the `remark` command to add your new remarks.
+</div>
 
 [&uarr; Back to Table of Contents](#table-of-contents)
 
