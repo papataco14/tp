@@ -167,8 +167,6 @@ Don't let the name intimidate you! Continue reading on to discover how **E**ffor
 The Command Box serves as the gateway for entering command lines. Once you press enter, LinkMeIn processes your input and provides responses through the Message Box. This process of interacting with LinkMeIn through text is exactly how CLI works!
 Now, let's move on to learn how to write command lines, and you are ready to try LinkMeIn!
 
-<div style="page-break-after: always;"></div>
-
 ## Command Format
 A command line has 4 components, **command word**, **index**, **prefix** and **parameter**.
 
