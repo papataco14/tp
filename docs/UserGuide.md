@@ -51,7 +51,7 @@ Before we begin, let us first introduce you to the annotations that you will enc
 * Alerts you of potential pitfalls or things to be cautious of when using LinkMeIn.
 </div>
 
-<div style="page-break-after: always;"></div>
+<div style="page-break-after: always;"></div><br>
 
 Throughout this guide, you will also notice **various text styles**. Here's what each of them means:
 - _Used to show possible scenarios that you can use a feature for (mainly in the feature sections)._
@@ -145,8 +145,6 @@ The GUI consists of four main components:
 | 3      | Company List Panel   | Displays the list of companies that you have added       |
 | 4      | Company Detail Panel | Displays the details of a company that you are viewing   |
 
-<div style="page-break-after: always;"></div>
-
 <div markdown="block" class="alert alert-success">
 **:bulb: Useful Tip:**<br>
 * To maximise your viewing experience, opt for full-screen mode in LinkMeIn!
@@ -201,6 +199,8 @@ The `add` command word is used to initiate the adding of a company into LinkMeIn
 The prefix indicates the parameter type. For example, `c/John` adds "John" as the company name while `n/John` adds "John" as the recruiter's name.
 Simply replace the parameters with your specific application details, and you have effectively crafted an `add` command!
 
+### Optional Parameters
+
 But wait! Notice the `[]` around `pr/PRIORITY`? Here's what it means:
 
 | Symbol  | Description      | Example          | Interpretation                                        |
@@ -208,9 +208,9 @@ But wait! Notice the `[]` around `pr/PRIORITY`? Here's what it means:
 | None    | Compulsory field | `C/COMPANY_NAME` | The company's name is required when adding a company  |
 | `[ ]`   | Optional field   | `[pr/PRIORITY]`  | Not a must to indicate priority when adding a company |
 
-Since the `PRIORITY` parameter is optional, the following command lines are accepted for the `add` command.
+<div style="page-break-after: always;"></div><br>
 
-<div style="page-break-after: always;"></div>
+Since the `PRIORITY` parameter is optional, the following command lines are accepted for the `add` command.
 
 **Examples:**
 - `add c/GovTech r/Software Engineer s/PA n/John Doe d/12-12-2023 e/johnDoe@gmail.com p/98765432 pr/medium`
@@ -225,9 +225,6 @@ Since the `PRIORITY` parameter is optional, the following command lines are acce
 Notice that the `add` command does not use `INDEX` in its command format. Each feature has a unique command format, but every command line must begin with a command word to specify the desired feature. You can find the command format for each feature in the [Features](#current-features) section or take a **quick tour** to get hands-on experience with LinkMeIn, right below!
 
 [&uarr; Back to Table of Contents](#table-of-contents)
-
----
-<div style="page-break-after: always;"></div>
 
 # Introducing LinkMeIn: A Quick Tour
 
@@ -258,8 +255,6 @@ Adding a company is the first step to tracking your internship applications. Let
 * **Phone Number:** 88287345
 
 This application is of **medium** priority as you have other applications that you want to focus on first.
-
-<div style="page-break-after: always;"></div>
 
 **Step 2:** With the details above, simply type `add c/Apple r/Software Engineer s/PA n/Francis Tan d/10-10-2023 e/francistan@example.com p/88287345 pr/medium` into the Command Box and press `Enter`.
 
