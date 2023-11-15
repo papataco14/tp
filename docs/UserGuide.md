@@ -123,8 +123,6 @@ In this section, you will learn how to set up LinkMeIn on your computer.
     * Do not move or delete the `data` folder as it contains the data of your internship applications.
     </div>
 
-   <div style="page-break-after: always;"></div>
-
 8. You should have successfully launched LinkMeIn with the following interface appearing on your screen.
     <div style="margin-top: 10px; margin-bottom: 10px">
         <img src="images/quick-start/startupPage.png" alt="Start Up Page LinkMeIn" width="650"/>
@@ -133,8 +131,6 @@ In this section, you will learn how to set up LinkMeIn on your computer.
 9. Great job! You are now ready to learn about the **GUI** of LinkMeIn!
 
 [&uarr; Back to Table of Contents](#table-of-contents)
-
-<div style="page-break-after: always;"></div>
 
 # Introducing LinkMeIn's GUI
 LinkMeIn's [GUI](#glossary) is designed to be **simple** and **intuitive**, with you in mind.
@@ -160,8 +156,6 @@ Now that you've been introduced to LinkMeIn's GUI, let's proceed to learn how yo
 
 [&uarr; Back to Table of Contents](#table-of-contents)
 
-<div style="page-break-after: always;"></div>
-
 # Introducing LinkMeIn's CLI
 
 LinkMeIn operates through the Command Line Interface (CLI), where you interact with our app by simply **typing commands**. Say goodbye to the days of multitasking between typing and clicking, and say hello to the world of CLI!
@@ -174,6 +168,8 @@ Don't let the name intimidate you! Continue reading on to discover how **E**ffor
 
 The Command Box serves as the gateway for entering command lines. Once you press enter, LinkMeIn processes your input and provides responses through the Message Box. This process of interacting with LinkMeIn through text is exactly how CLI works!
 Now, let's move on to learn how to write command lines, and you are ready to try LinkMeIn!
+
+<div style="page-break-after: always;"></div>
 
 ## Command Format
 A command line has 4 components, **command word**, **index**, **prefix** and **parameter**.
@@ -212,7 +208,7 @@ But wait! Notice the `[]` around `pr/PRIORITY`? Here's what it means:
 | None    | Compulsory field | `C/COMPANY_NAME` | The company's name is required when adding a company  |
 | `[ ]`   | Optional field   | `[pr/PRIORITY]`  | Not a must to indicate priority when adding a company |
 
-Since `PRIORITY` parameter is optional, the following command lines are accepted for the `add` command.
+Since the `PRIORITY` parameter is optional, the following command lines are accepted for the `add` command.
 
 <div style="page-break-after: always;"></div>
 
