@@ -381,8 +381,6 @@ _You've just completed an internship cycle and are preparing for the next one! W
 
 ![img.png](images/clear-command/clear.png)
 
-<div style="page-break-after: always;"></div>
-
 <div markdown="block" class="alert alert-danger">
 **:exclamation: Warning:**<br>
 * Companies cannot be recovered after clearing! Please only use the `clear` command when you are very sure that you no longer wish to track the existing list of companies!
@@ -401,8 +399,6 @@ _You are done tracking for the day and wish to exit LinkMeIn. Simply use the `ex
 </div>
 
 [&uarr; Back to Table of Contents](#table-of-contents)
-
-<div style="page-break-after: always;"></div>
 
 ### Accessing Help: `help`
 
@@ -445,8 +441,6 @@ Here are some other examples of `add` commands that you can try:
 - `add c/Uber r/Software Engineer s/PA n/Mavis d/02-03-2023 e/mavis@example.com p/88284452 pr/low`
 - `add c/Oracle r/Data Analyst s/PA n/Marry Lim d/12-11-2023 e/marrylim@example.com p/98452321`
 
-<div style="page-break-after: always;"></div>
-
 **Possible Error:** <br>
 
 If you made a mistake for any of the parameters input, you will see an error message in the Message Box informing you of the specific error message. Don't worry, just update your input accordingly and try again! An example of the error message is shown below.
@@ -477,8 +471,6 @@ Here are some other examples of `view` commands that you can try:
 - `view 1`
 - `view 4`
 
-<div style="page-break-after: always;"></div>
-
 **Possible Error:**
 
 If you have entered an [**invalid index**](#5-what-is-an-invalid-index), you will see an error message in the Message Box as shown below. Don’t worry, just edit your index accordingly and try the command again!
@@ -487,12 +479,14 @@ If you have entered an [**invalid index**](#5-what-is-an-invalid-index), you wil
 
 [&uarr; Back to Table of Contents](#table-of-contents)
 
+<div style="page-break-after: always;"></div>
+
 ### Deleting a Company : `delete`
 
 _Whether you accidentally added a company or no longer want to track it, don't worry! LinkMeIn has got you covered!
 You can use the `delete` command to delete any company from your list of companies._
 
-**Format:`delete INDEX`**
+**Format: `delete INDEX`
 
 > `INDEX` must be a positive integer less than or equal to the maximum integer (i.e., 1, 2, 3, ..., 2147483647). It must also not be greater than the number of companies in the list.
 
@@ -542,8 +536,6 @@ _After adding a company, you wish to note down more information such as the job 
 **Step 1.** After adding the internship for DSTA into LinkMeIn,
 you want to note that this internship requires experience in Java.
 
-<div style="page-break-after: always;"></div>
-
 **Step 2.** To note this down, type `remark 3 re/need Java` and press `Enter`.
 
 ![RemarkDemo1.png](images/remark-command/RemarkDemo1.png)
@@ -557,8 +549,6 @@ you want to note that this internship requires experience in Java.
 Here are some other examples of `remark` commands that you can try:
 - `remark 4 re/interview went well!`
 - `remark 5 re/$800 per month`
-
-<div style="page-break-after: always;"></div>
 
 **Possible Error:**
 
@@ -768,8 +758,6 @@ Filter the list of companies by their application status using the `filter` comm
 **:information_source: Note:**<br>
 * LinkMeIn's `filter` command will always filter from the **full** list of companies. This means that if you have previously used `find`, performing `filter`, will not filter from the list of companies that you have searched for.
 </div>
-
-<div style="page-break-after: always;"></div>
 
 **Example:**
 
